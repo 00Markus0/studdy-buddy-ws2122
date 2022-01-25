@@ -1,0 +1,265 @@
+html, body {
+	position: relative;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	right: 2vw;
+	float: right;
+	padding: 2vh 0vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+header ul li {
+	list-style: none;
+	margin-left: 2vw;
+}
+
+header ul li a{
+	text-decoration: none;
+	padding: 1vw 2vw;
+	color: #FFF;
+	border-radius: 2vw;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+	background: #FFF;
+	color: #ab654f;
+}
+
+div {
+	position: relative;
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+section::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 220px;
+	background: linear-gradient(to top, #FFFF, transparent);
+	z-index: 1000;
+}
+
+section img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+section img#middle {
+	z-index: 10;
+}
+section img#front {
+	z-index: 10;
+}
+
+section h1 {
+	position: absolute;
+	color: #FFF;
+	white-space: nowrap;
+	font-size: 7vw;
+	padding: 2vw;
+	z-index: 9;
+}
+
+div {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #fff6f2;
+}
+
+div h2 {
+	position: absolute;
+	width: 100%;
+	top: 2vh;
+	max-width: 90%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #222222;
+	font-size: 3vw;
+	z-index: 9;
+	margin-left: 4vw;
+}
+
+div textarea {
+	position: relative;
+	top: 42vh;
+	display: flex;
+	width: 90%;
+	height: 20vh;
+	margin-left: 5vw;
+	font-size: larger;
+	color: #222;
+	background-color: #FFF;
+	border-color: #c0c0c0;
+	border-radius: 10px;
+}
+
+div button {
+	position: relative;
+	top: 58vh;
+	left: 30vw;
+	transition: all .2s ease;
+	display: flex;
+	margin-left: 6vw;
+	margin-top: 6vh;
+	padding: 1.5vw 3vw;
+	background-color: #f79272;
+	font-size: 5vh;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 4vw;
+    border-color: #000000;
+	box-shadow: 0 5px 20px -5px rgba(0,0,0,.5);
+}
+
+.button:hover,
+button:hover {
+	cursor: pointer;
+	background-color: #ab654f;
+}
+
+.button:active,
+button:active {
+	box-shadow: 1px 2px 5px -2px rgba(2,2,2,.5);
+}
+
+button {
+	position: relative;
+	transition: all .2s ease;
+	display: flex;
+	padding: 3vw 6vw;
+	background-color: #f79272;
+	font-size: 5vh;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 8vw;
+    border-color: #000000;
+	box-shadow: 2px 5px 15px -4px rgba(2,2,2,.5);
+}
+
+a {
+	text-decoration: none;
+}
+
+.btnDisable {
+	pointer-events: none;
+	background-color: #AAA;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled{
+	pointer-events: none;
+	color: #c0c0c0;
+    background-color: #FFF;
+}
+
+@keyframes gradient-anim {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #222222;
+	}
+	header ul li a:hover,
+	header ul li a.active{
+		background: #dbd7d4;
+	}
+	section::before{
+		background: linear-gradient(to top, #222222, transparent);
+	}
+	div {
+		background-color: #222222;
+	}
+	section h1{
+		color: #fff6f2;
+	}
+	section h2 {
+		color: #dbd7d4;
+	}
+	div h1{
+		color: #fff6f2;
+	}
+	div h2{
+		color: #dbd7d4;
+	}
+	div textarea {
+		color: #fff6f2;
+		background-color: #333;
+		border-color: #000;
+	}
+	.button,
+	button {
+		background-color: #ab654f;
+		box-shadow: 2px 5px 15px -4px rgba(0,0,0,.5);
+	}
+	.button:hover,
+	button:hover {
+		background-color: #f79272;
+	}
+	.button:active,
+	button:active {
+		box-shadow: 1px 2px 5px -2px rgba(0,0,0,.5);
+	}
+	.btnDisable {
+		background-color: #333;
+	}
+}

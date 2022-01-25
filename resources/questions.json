@@ -1,0 +1,43 @@
+{"questions":[
+{"green_questions": [
+    {"appendicitis":["Name 4 symptoms of appendicitis.","What area is affected when someone has an appendicits?"]},
+    {"wrist_bones":["Name 4 of all the bones in a human wrist."," Name the mnemonic bridge to the 8 bones in a human wrist."]},
+    {"cyanate_cyanide": ["What is Cyanide?", "What is the mnemonic to differentiate Cyanide and Cyanate?"]},
+    {"nerves":["Name 4 Nerves in the human body.","How many nerves does a human have in its body?"]},
+    {"achilles":["Why is this part of the body called achilles?","What historical background does the achilles have?"]},
+    {"lumbago":["Which two diseases could the man in the picture have?","In which area does the man in the picture have pain?"]},
+    {"cataract": ["Name the disease of an eye with a clouded and blurred sight.", "Name 3 symptoms of a cataract."]},
+    {"anesthesia":["Name the mnemonic bridge for the equipment check before general anaesthesia.","Name 3 pieces of equipment for general anesthesia."]},
+    {"depression": ["What are four major characteristics for depression?", "How many characteristics are there for episodic depression?"]},
+    {"physical_assessment": ["What are the four points for physical assessment of a disease?", "Name the mnemonic bridge to a four point physical disease."]}
+]},
+{"yellow_question": [
+    {"appendicitis":["What happens when you do not treat an appendicits fast enough?","What could be a doctor’s diagnosis when a patient complains about pain around the navel?"]},
+    {"wrist_bones":["How many bones are there in a human wrist?","What does the phrase “Never Lower Tilly’s Pants, Mother Might Come Home” have to do with human bones?"]},
+    {"cyanate_cyanide":["What is the difference between Cyanide and Cyanate?","Why can't you die from Cyanate?"]},
+    {"nerves":["What is the following phrase used for?: “On Old Olympus’ Towering Tops, A Finn And German Viewed Some Hops”","What is a synonym for olfactory?"]},
+    {"achilles":["What symptoms does a patient have when he has pain above the heel?","Where in your body is the part affected by achilles tendinitis?"]},
+    {"lumbago":["What is the difference between herniated disc and lumbago?","How can you tell the difference between lumbago and herniated disc?"]},
+    {"cataract":["What part of the body is affected when you have a cataract?","What happens at the surgery to heal a cataract?"]},
+    {"anesthesia":["What is anaesthesia?","Why are MALES important in anaesthesia?"]},
+    {"depression":["What could appetite change have to do with your mental health?","What could the term “SPACE DIGS” say?"]},
+    {"physical_assessment":["You are at the doctor’s office and tell him you have a stomach ache. The doctor just gives you pain pills and lets you go. What should the doctor have done instead?","What is the term “I'm a people person” used for?"]}
+
+]},
+{"orange_question": [
+    {"appendicitis":["You are a doctor and your patient complains about fever and moving pain on the right side. The pain worsens if he walks or coughs. On top, he vomits in your office. What is your diagnosis?", "Which symptoms fit an appendicitis diagnosis? fever - appetite loss - fatigue - moving pain - breathing problems - vomiting"]},
+    {"wrist_bones":["Which of these bones are in the human wrist? Navicular - Talus - Lunate - Hamate - Phalanges - Fibula", "Which of these bones are NOT in the human wrist? Fibula - Lunate - Ribs - Tibia - Navicular - Talus"]},
+    {"cyanate_cyanide":["A patient comes to the doctor and says he accidentally ate lots of sour cherry seeds and now is afraid that he has poisoning. What do you tell that patient?", "Which food contains Cyanate? (Name 1-2 Examples.)"]},
+    {"nerves":["Which nerve is affected when you hurt your back?", "Which nerve is active when you smile?"]},
+    {"achilles":["What could be a common secondary disease a runner can have?", "You are a doctor. A patient comes into your office with the following symptoms: pain in his heel, limited range of motion when flexing his foot and a swelling in this area. What could be the reason for those symptoms?"]},
+    {"lumbago":["An older man has back-pain after building furniture. After two days he says his pain got better. Which disease could he have had?", "An elderly lady was lifting a heavy bag of potatoes. Now she has great back pain and can hardly move. Since two days she can only lie in bed and her pain did not get any better. What disease could she have?"]},
+    {"cataract":["What symptoms fit to a cataract? seeing red dots - cloudy/blurred sight - clear sight at night but not at day - pain at the eyeballs - dizziness - feeling the need for new glasses", "With which illness can human eyes only see like shown in this picture?"]},
+    {"anesthesia":["Which of these objects are the equipment for general anesthesia? masks - infusion - endotracheal tubes - bougie - defibrillator - airways", "Which of these objects are NOT used for general anesthesia? defibrillator - masks - endotracheal tubes - catheter - scalpel - suction"]},
+    {"depression":["You are a doctor. A patient comes into your office and complains about sleep disruption, energy and concentration loss. You ask him if he has also seen a change in his appetite and interest wanes. He affirmed your questions. What is your diagnosis?", "Which symptoms fit a depression diagnosis? headache - sleep disruption - appetite change - diarrhea - suicidal tendencies - sore throat - fever - psychomotor retardation - vomiting"]},
+    {"physical_assessment":["You are the doctor. A patient comes in your room and feels pain. What do you do to find out which disease the patient has?", "You are a resident with a doctor and he asks you what steps are generally taken to assess the disease of a patient."]}
+
+]}
+
+
+
+]}
